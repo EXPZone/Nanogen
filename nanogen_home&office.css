@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+span{
+  font-weight: bold;
+  color:#006CBB;
+}
+
+#black{
+  z-index: 0;
+  background-color: black;
+  height: 100%; 
+  width: 100%; 
+  object-fit: cover; 
+  position: absolute;
+}
+
+img[src="nanogenair_renkli_rgb@4x.png"] { 
+    position: absolute;
+    display: flex;
+    height: 4em;
+    margin-top: 4em;
+    left: 4em;
+    z-index: 1;
+    }
+
+    .button2{
+      border-radius: 0;
+      background-color: white;
+      width: 10em;
+      padding: 1em;
+      height: auto;
+      border:none;
+      transition: .5s;
+      position: absolute;
+      bottom: 10em;
+      left: 45%;
+      z-index: 1;
+      text-align: center;
+    }
+
+  nav{
+      display: flex;
+      position: absolute;
+      right: 3em;
+      margin-top: 2em;
+      z-index: 1;
+      color: white;
+  }
+
+  li{
+      text-decoration: none;
+      display: flex;
+      text-align: left;
+      color: white;
+      margin: 2em;
+      font-weight: bold;
+  }
+
+  #sociallogos{
+    display: inline;
+    height: 63%;
+    width: 1em;
+    float: right;
+    position: absolute;
+    right: 4em;
+    bottom: 0;
+    vertical-align: middle;
+    z-index: 3;
+}
+
+.fa {
+    font-size: 2em !important;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin-top: 1em;
+    transition: .5s;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    color: #006CBB;
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  .fa-facebook {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  .fa-linkedin {
+    color: white;
+  }
+
+  .progress-container {
+    width: 10em;
+    height: .5em;
+    background: white;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 52%;
+    border-radius: 5em;
+    text-align: center;
+    font-weight: bold;
+    color: #006CBB;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006CBB;
+    z-index: 1;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: .5em;
+    background: #006CBB;
+    width: 0%;
+    border-radius: 5em;
+    z-index: 6;
+  }
+
+  #dot{
+    width: 4em;
+    height: 4em;
+    background-color: #006CBB;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 2em;
+    box-shadow: 0 0 10px white;
+    border: none;
+    transition: .5s;
+}
+
+#dot:hover{
+  background-color: white;
+  color: #006CBB;
+  transition: .5s;
+}
+
+  #playvideo{
+    position: absolute;
+    height: 8em;
+    width: 20em;
+    z-index: 1;
+    left: 2em;
+    bottom: 0;
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #placeorder {
+    font-size: 1em;
+    position: absolute;
+    width:20em;
+    height: 6em;
+    bottom: 0;
+    right: 0;
+    text-align:center;
+    color: #006CBB;
+    background-color: white;
+    font-weight: bold;
+    z-index: 1;
+    border: none;
+    transition: .5s;
+  }
+
+  #placeorder:hover{
+    background-color: #006CBB;
+    color: white;
+    transition: .5s;
+  }
+
+  #p2 {
+    font-size: 2em;
+    position: relative;
+    width:75%;
+    top: 7em;
+    margin: auto;
+    margin-bottom: 14em;
+    text-align:left;
+    color: #006CBB;
+    font-weight: 500;
+    z-index: 1;
+    border-left: solid;
+    border-color: #006CBB;
+    padding-left:1em;
+  }
+
+  #cardcontainer{
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    z-index: 2;
+  }
+
+  .addtocart{
+    background-color: #006CBB;
+    height: 3em;
+    width: 40%;
+    border-radius: 0 2em 2em 0;
+    border-style: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  ul li{
+    display: list-item;
+    color: #006CBB;
+    z-index: 5;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+  }
