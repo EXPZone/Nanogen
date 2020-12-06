@@ -225,6 +225,7 @@ img[src="nanogenair_renkli_rgb@4x.png"] {
   ul li{
     display: list-item;
     color: #006CBB;
+    list-style-type: decimal;
     z-index: 5;
     width: 80%;
     margin: auto;
