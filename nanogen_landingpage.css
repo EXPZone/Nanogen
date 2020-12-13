@@ -25,25 +25,25 @@ img[src="nanogenair_renkli_rgb@4x.png"] {
     position: relative;
     height: 100vh;
     width: 50%;
-    background-image: url("2.png");
+    background-image: url("New1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     float: right;
 }
 #sociallogos{
-    height: auto;
-    float: right;
-    margin-top: 2em;
-    margin-right: 2em;
+    position: absolute;
+    margin-right: 5em;
+    bottom: 1em;
+    right: 0;
+    width: 1em;
 }
 
 .fa {
-    padding: 20px;
+    padding: .5em;
     font-size: 2em !important;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
   }
   
   .fa:hover {
