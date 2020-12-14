@@ -6,9 +6,3 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
 }
-
-function pageCount() {
-    if (document.getElementById("myBar").style.width > 25){
-    document.getElementsByClassName("progress-container").innerHTML = "Hello There!";
-    }
-  }

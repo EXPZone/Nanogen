@@ -75,18 +75,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.5em;
   position: absolute;
   width:38%;
-  bottom: 20%;
-  left: 49%;
+  right: 2em;
   text-align:left;
-  color: white;
-  font-weight: regular;
+  color: #11263A;
   z-index: 1;
-  border-left: solid;
-  border-color: #006CBB;
-  padding-left:1em;
 }
 
 abbr[title],
@@ -109,7 +104,6 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 15em;
 }
 
 ol ol,
@@ -159,8 +153,9 @@ sup {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #006CBB;
   transition: .5s;
+  align-self: center;
 }
 
 a:hover {
@@ -196,7 +191,7 @@ figure {
 }
 
 img {
-  
+  width: auto;
 }
 
 svg {
@@ -226,13 +221,18 @@ label {
 }
 
 button {
-  border-radius: 0;
-  background-color: white;
+  border-radius: 5em;
+  background-color: #006CBB;
+  position: sticky;
+  color: white;
   width: 10em;
   padding: 1em;
+  left: 45%;
+  font-weight: bold;
   height: auto;
   border:none;
   transition: .5s;
+  bottom: 1em;
 }
 
 button:focus {
@@ -6432,6 +6432,9 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 10em;
 }
 
 .carousel.pointer-event {

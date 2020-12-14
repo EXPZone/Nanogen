@@ -21,12 +21,20 @@ span{
 }
 
 img[src="nanogenair_renkli_rgb@4x.png"] { 
-    position: absolute;
+    position: relative;
+    display: flex;
+    height: 3em;
+    left: 0;
+    z-index: 1;
+    }
+
+  img[src="nanogenair_siyah-beyaz_rgb@4x.png"] { 
+    position: relative;
     display: flex;
     height: 4em;
-    margin-top: 4em;
-    left: 4em;
+    left: 0;
     z-index: 1;
+    bottom: 4em;
     }
 
     .button2{
@@ -45,21 +53,32 @@ img[src="nanogenair_renkli_rgb@4x.png"] {
     }
 
   nav{
+    width: 100%;
       display: flex;
       position: absolute;
-      right: 3em;
-      margin-top: 2em;
       z-index: 1;
-      color: white;
+      color: #006CBB;
+      background-color: white;
+      place-content: flex-end;
   }
 
   li{
       text-decoration: none;
       display: flex;
       text-align: left;
-      color: white;
+      color: #006CBB;
       margin: 2em;
       font-weight: bold;
+  }
+
+  ol{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    display: inline-block;
+    margin-left: 30%;
   }
 
   #sociallogos{
@@ -102,88 +121,8 @@ img[src="nanogenair_renkli_rgb@4x.png"] {
   .fa-linkedin {
     color: white;
   }
-
-  .progress-container {
-    width: 10em;
-    height: .5em;
-    background: white;
-    transform: rotate(90deg);
-    position: fixed;
-    top: 52%;
-    border-radius: 5em;
-    text-align: center;
-    font-weight: bold;
-    color: #006CBB;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #006CBB;
-    z-index: 1;
-  }
   
   /* The progress bar (scroll indicator) */
-  .progress-bar {
-    height: .5em;
-    background: #006CBB;
-    width: 0%;
-    border-radius: 5em;
-    z-index: 6;
-  }
-
-  #dot{
-    width: 4em;
-    height: 4em;
-    background-color: #006CBB;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    margin: 2em;
-    box-shadow: 0 0 10px white;
-    border: none;
-    transition: .5s;
-}
-
-#dot:hover{
-  background-color: white;
-  color: #006CBB;
-  transition: .5s;
-}
-
-  #playvideo{
-    position: absolute;
-    height: 8em;
-    width: 20em;
-    z-index: 1;
-    left: 2em;
-    bottom: 0;
-    font-weight: bold;
-    color: white;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #placeorder {
-    font-size: 1em;
-    position: absolute;
-    width:20em;
-    height: 6em;
-    bottom: 0;
-    right: 0;
-    text-align:center;
-    color: #006CBB;
-    background-color: white;
-    font-weight: bold;
-    z-index: 1;
-    border: none;
-    transition: .5s;
-  }
-
-  #placeorder:hover{
-    background-color: #006CBB;
-    color: white;
-    transition: .5s;
-  }
 
   #p2 {
     font-size: 2em;
@@ -206,6 +145,11 @@ img[src="nanogenair_renkli_rgb@4x.png"] {
     position: relative;
     display: inline-flex;
     z-index: 2;
+  }
+
+  container{
+    display: inline-block;
+    position: relative;
   }
 
   .addtocart{
