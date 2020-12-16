@@ -223,7 +223,7 @@ label {
 button {
   border-radius: 5em;
   background-color: #006CBB;
-  position: sticky;
+  position: absolute;
   color: white;
   width: 10em;
   padding: 1em;
@@ -232,7 +232,7 @@ button {
   height: auto;
   border:none;
   transition: .5s;
-  bottom: 1em;
+  bottom: 5em;
 }
 
 button:focus {
